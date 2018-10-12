@@ -45,7 +45,7 @@ mod simdop;
 mod simd_opt;
 mod simd;
 
-mod chacha20;
+pub mod chacha20;
 mod poly1305;
 mod aead;
 
