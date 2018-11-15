@@ -37,7 +37,7 @@ extern crate test;
 
 extern crate constant_time_eq;
 
-mod as_bytes;
+pub mod as_bytes;
 
 mod simdty;
 mod simdint;
